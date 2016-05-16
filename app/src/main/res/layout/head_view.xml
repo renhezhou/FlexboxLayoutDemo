@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        app:flexDirection="row"
         app:justifyContent="space_between">
 
         <TextView
@@ -58,13 +57,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="左上角"
+            android:text="左下角"
             android:textSize="40sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="右上"
+            android:text="右下"
             android:textSize="40sp"
             app:layout_alignSelf="flex_end" />
     </com.google.android.flexbox.FlexboxLayout>
